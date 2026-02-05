@@ -3,7 +3,7 @@ const noBtn = document.getElementById("noBtn");
 const response = document.getElementById("response");
 
 yesBtn.addEventListener("click", () => {
-    response.textContent = "Yay! 💖 I knew you’d say yes 😍";
+    response.textContent = "Good Choice 😍";
 });
 
 noBtn.addEventListener("mouseover", () => {
@@ -11,3 +11,4 @@ noBtn.addEventListener("mouseover", () => {
     const y = Math.random() * 200 - 100;
     noBtn.style.transform = `translate(${x}px, ${y}px)`;
 });
+
