@@ -25,7 +25,7 @@ noBtn.addEventListener("click", () => {
         seconds--;
 
         if (seconds > 0) {
-            response.textContent = `AAccha silaa diya tune mere pyaar ka...💔
+            response.textContent = `Accha silaa diya tune mere pyaar ka...💔
     Reloading in ${seconds} seconds... apni galti sudhaar lo jaan😚`;
         } else {
             clearInterval(countdown);
@@ -46,3 +46,4 @@ yesBtn.addEventListener("click", () => {
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
 });
+
